@@ -11,7 +11,7 @@ services:
       - "3306"
 
   web:
-    image: leen15/espocrm
+    image: hopkinsju/espocrm
     depends_on:
       - db
     ports:
