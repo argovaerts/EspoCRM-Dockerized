@@ -12,6 +12,7 @@ services:
 
   web:
     image: hopkinsju/espocrm-dockerized
+
     depends_on:
       - db
     ports:
